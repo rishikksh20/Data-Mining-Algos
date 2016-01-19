@@ -3,6 +3,7 @@ Famous Data Mining Algos written in python using scikit-learn library
 
 ##Installation
 - Python download and installation [read here] (https://www.python.org/downloads/)
+- pip installation [read here] (https://pip.pypa.io/en/stable/installing/)
 - Scikit-learn requires:
 
 > Python (>= 2.6 or >= 3.3),
