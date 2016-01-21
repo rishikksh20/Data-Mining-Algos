@@ -16,7 +16,7 @@ If you already have a working installation of numpy and scipy, the easiest way t
 ```sh
 pip install -U scikit-learn
 ```
-and if you have Anaconda install in your PC the:
+and if you have Anaconda install in your PC then:
 ```sh
 conda install scikit-learn
 ```
