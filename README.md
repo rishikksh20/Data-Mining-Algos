@@ -1,5 +1,5 @@
 # Data-Mining-Algos
-Famous Data Mining Algos written in python using scikit-learn library 
+Widely Used Data Mining Algos written in python using scikit-learn library 
 
 ##Installation
 - Python download and installation [read here] (https://www.python.org/downloads/)
