@@ -13,6 +13,7 @@ dataset = datasets.load_iris()
 # fit a CART model to the data
 model = DecisionTreeClassifier()
 model.fit(dataset.data, dataset.target)
+# Print the model after fit the training data
 print(model)
 # make predictions
 expected = dataset.target
