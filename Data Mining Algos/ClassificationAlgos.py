@@ -10,7 +10,7 @@ import pandas
 from sklearn.metrics import accuracy_score
 import timeit
 
-# Pre-processing the Data
+#Pre-processing the Data
 data_df = pandas.read_csv('train.csv')
 train=data_df.loc[data_df.id%2==0]
 target=train.target
@@ -19,7 +19,7 @@ test=data_df.loc[data_df.id%2==1]
 expected=test.target
 test=test.drop(['id','target'],axis=1)
 
-# Gaussian Naive Bayes
+#Gaussian Naive Bayes
 from sklearn.naive_bayes import GaussianNB
 start = timeit.default_timer()
 model = GaussianNB()
@@ -32,7 +32,7 @@ print stop - start
 #Decision Tree
 from sklearn.tree import DecisionTreeClassifier
 start = timeit.default_timer()
-model = DecisionTreeClassifier()
+model = DecisionTreeClassifier(min_samples_split=45)
 model.fit(train,target)
 predicted = model.predict(test)
 print(accuracy_score(predicted,expected))

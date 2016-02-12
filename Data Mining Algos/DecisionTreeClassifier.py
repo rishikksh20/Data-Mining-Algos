@@ -7,7 +7,7 @@ Created on Thu Jan 21 23:31:49 2016
 # Decision Tree Classifier
 from sklearn import datasets
 from sklearn import metrics
-from sklearn.tree import DecisionTreeClassifier
+
 # load the iris datasets
 dataset = datasets.load_iris()
 # fit a CART model to the data
